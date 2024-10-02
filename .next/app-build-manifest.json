@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "/(website)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(website)/page.css",
+      "static/chunks/app/(website)/page.js"
+    ],
+    "/(website)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(website)/layout.css",
+      "static/chunks/app/(website)/layout.js"
+    ],
+    "/(website)/tours/island-trip/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(website)/tours/island-trip/page.css",
+      "static/chunks/app/(website)/tours/island-trip/page.js"
+    ],
+    "/(website)/tours/adventure-party-boat/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(website)/tours/adventure-party-boat/page.css",
+      "static/chunks/app/(website)/tours/adventure-party-boat/page.js"
+    ],
+    "/(website)/tours/dinner-cruise/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(website)/tours/dinner-cruise/page.css",
+      "static/chunks/app/(website)/tours/dinner-cruise/page.js"
+    ]
+  }
+}

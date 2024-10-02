@@ -1,0 +1,7 @@
+{
+  "/api/category/route": "app/api/category/route.js",
+  "/(website)/page": "app/(website)/page.js",
+  "/(website)/tours/island-trip/page": "app/(website)/tours/island-trip/page.js",
+  "/(website)/tours/adventure-party-boat/page": "app/(website)/tours/adventure-party-boat/page.js",
+  "/(website)/tours/dinner-cruise/page": "app/(website)/tours/dinner-cruise/page.js"
+}
