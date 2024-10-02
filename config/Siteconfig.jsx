@@ -120,6 +120,7 @@ export const siteConfig={
       { name: 'North Goa Tours', link: '/tours/north-goa-tour' },
       { name: 'South Goa Tours', link: '/tours/south-goa-tour' },
       { name: 'Flyboarding', link: '/tours/flyboarding' },
+      { name: "Island Trip Goa", link: "/tours/island-trip" },
     ],
 
       tour : [
@@ -135,6 +136,7 @@ export const siteConfig={
       { name: 'North Goa Tour', link: '/tours/north-goa-tour' },
       { name: 'South Goa Tour', link: '/tours/south-goa-tour' },
       { name: 'Flyboarding', link: '/tours/flyboarding' },
+      { name: "Island Trip Goa", link: "/tours/island-trip" },
       { name: 'Couple Package - 1', link: '/couplepackage/couple-package-1' },
       { name: 'Couple Package - 2', link: '/couplepackage/couple-package-2' },
       { name: 'Couple Package - 3', link: '/couplepackage/couple-package-3' },
