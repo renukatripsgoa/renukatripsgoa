@@ -17,90 +17,20 @@ const TripIsland = () => {
           <h1 className="text-lg font-bold text-left mb-6">Tour Package Includes</h1>
 
           <div className="space-y-8">
-            {/* Pick-Up & Drop */}
+          
             <div>
-              <h2 className="text-md font-semibold flex items-center gap-2">
-
-                Pick-Up & Drop
-              </h2>
-              <ul className="list-disc list-inside ml-6 text-gray-700 mt-2">
-                <li>Pick-up & drop from your hotel (7:30 to 8:00 AM)</li>
-                <li>20-minute road journey from your hotels</li>
-              </ul>
-            </div>
-
-            {/* Boat Journey */}
-            <div>
-              <h2 className="text-md font-semibold flex items-center gap-2">
-
-                Boat Journey
-              </h2>
               <ul className="list-disc list-inside ml-6 text-gray-700 mt-2 space-y-1">
-                <li>38 KM boat journey to Grand Island</li>
-                <li>Light & healthy breakfast provided</li>
-                <li>Dolphin show, sea birds viewing & sightseeing</li>
-                <li>
-                  Visit to various attractions by boat ride:
-                  <ul className="list-disc list-inside ml-6 space-y-1 mt-1">
-                    <li>Lighthouse</li>
-                    <li>Aguada Fort</li>
-                    <li>Centre Jail</li>
-                    <li>Miramar Beach</li>
-                    <li>Dona Paula Beach</li>
-                    <li>Governor House</li>
-                    <li>Monkey Beach</li>
-                  </ul>
-                </li>
+                <li>Pick-up and Drop from Hotel</li>
+                <li>Snorkelling</li>
+                <li>Fishing</li>
+                <li>Dolphins Sighting</li>
+                <li>Beer, Water & Soft Drinks</li>
+                <li>Fruits & Snacks</li>
+                <li>Barbeque (Fish/Chicken)</li>
+                <li>Buffet (Veg/Non-Veg)</li>
               </ul>
             </div>
 
-            {/* Scuba Diving */}
-            <div>
-              <h2 className="text-md font-semibold flex items-center gap-2">
-
-                Scuba Diving
-              </h2>
-              <ul className="list-disc list-inside ml-6 text-gray-700 mt-2 space-y-1">
-                <li>5-minute training in shallow water</li>
-                <li>20 to 25 minutes of scuba diving underwater</li>
-                <li>Scuba diving with PADI instructor</li>
-                <li>See 30 kinds of fish and sea corals</li>
-                <li>Full HD videos of your scuba diving experience provided (compulsory)</li>
-              </ul>
-            </div>
-
-            {/* Buffet Lunch */}
-            <div>
-              <h2 className="text-md font-semibold flex items-center gap-2">
-
-                Buffet Lunch
-              </h2>
-              <ul className="list-disc list-inside ml-6 text-gray-700 mt-2 space-y-1">
-                <li>Chicken Masala</li>
-                <li>Mix Vegetable</li>
-                <li>Dal Fry</li>
-                <li>Rice</li>
-                <li>Chapati</li>
-                <li>Salad</li>
-                <li>Beer / Soft drink / Mineral water</li>
-                <li>Fruits</li>
-              </ul>
-            </div>
-
-            {/* Water Sports Package */}
-            <div>
-              <h2 className="text-md font-semibold flex items-center gap-2">
-
-                Water Sports Package
-              </h2>
-              <ul className="list-disc list-inside ml-6 text-gray-700 mt-2 space-y-1">
-                <li>Parasailing (with deep)</li>
-                <li>Jet Ski</li>
-                <li>Bumper Ride</li>
-                <li>Banana Ride</li>
-                <li>Speed Boat</li>
-              </ul>
-            </div>
 
             {/* Pick-Up Points */}
             <div className='pb-4'>
