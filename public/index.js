@@ -52,7 +52,7 @@ const HotelName = ({ hotel_Name, onHotelName, hotel_ID }) => {
 const IMAGES = {
   "Scuba Combo": "/img/tour/scuba-combo/scuba-combo-home-imp.webp",
   "Couple Scuba Water Sports": "/img/tour/couple-scuba-watersports/couple-scuba-watersport.jpg",
-  "Scuba Combo Paradise Island": "/img/tour/scuba-combo-paradise-island/scuba-combo-home-imp.webp",
+  "Scuba Combo Paradise Island": "/img/tour/scuba-combo/scuba-combo-home-imp.webp",
   "Scuba Combo Malwan": "/img/tour/scuba-combo-malwan/scuba-combo-malwan.jpg",
   "Water Sports Combo": "/img/tour/water-sports-combo/water-sports.jpg",
   "Couple Package - 1": "/img/couple-packages-goa/couple-package-one/couple-package-one.png",
