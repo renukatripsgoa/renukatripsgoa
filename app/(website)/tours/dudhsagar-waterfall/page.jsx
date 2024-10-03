@@ -195,7 +195,7 @@ const DudhSagarWaterFallTrip = () => {
 
   return (
     <>
-      <TourCombo data={data} title={"Dudhsagar Waterfall Trip"} titleImg={`/img/tour/dudhsagar-waterfall-trip/dudhsagar-waterfall.jpg`} SLIDES={SLIDES} OPTIONS={OPTIONS} bookingSection={bookingSection} description={description} destination={destination} inclusions={inclusions} dudhsagarPamplet={dudhsagarPamplet} action={action} imgSection={imgSection} off={off} />
+      <TourCombo data={data} title={"Dudhsagar Waterfall Trip"} titleImg={`/img/tour/dudhsagar-waterfall-trip/dudhsagar-waterfalls-trekking.jpg`} SLIDES={SLIDES} OPTIONS={OPTIONS} bookingSection={bookingSection} description={description} destination={destination} inclusions={inclusions} dudhsagarPamplet={dudhsagarPamplet} action={action} imgSection={imgSection} off={off} />
     </>
   );
 };
