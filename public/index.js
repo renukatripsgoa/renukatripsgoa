@@ -68,7 +68,7 @@ const IMAGES = {
   "South Goa Tour": "/img/tour/south-goa-tour/southgoa.webp",
   "Flyboarding": "/img/tour/flyboarding/flyboarding.webp",
   "Dudhsagar Waterfalls": "/img/tour/dudhsagar-waterfall-trip/dudhsagar-waterfalls-trekking.jpg",
-  "Island Trip Goa": "/img/tour/island-trip/trip-island-goa.jpeg",
+  "Island Trip Goa": "/img/tour/island-trip/grand-island.jpg",
   "Whatsappwal": "/img/whatsappwal.jpg",
   "adventure": "/img/adventure.jpg",
   "scubahome": "/img/scubahome.jpg",
