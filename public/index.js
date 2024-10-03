@@ -50,7 +50,7 @@ const HotelName = ({ hotel_Name, onHotelName, hotel_ID }) => {
 };
 
 const IMAGES = {
-  "Scuba Combo": "/img/tour/scuba-combo/scuba-combo-home.jpg",
+  "Scuba Combo": "/img/tour/scuba-combo/scuba-combo-home-imp.jpg",
   "Couple Scuba Water Sports": "/img/tour/couple-scuba-watersports/couple-scuba-watersport.jpg",
   "Scuba Combo Paradise Island": "/img/tour/scuba-combo-paradise-island/paradise-island-scuba-diving.jpg",
   "Scuba Combo Malwan": "/img/tour/scuba-combo-malwan/scuba-combo-malwan.jpg",
@@ -67,7 +67,7 @@ const IMAGES = {
   "North Goa Tour": "/img/tour/north-goa-tour/northgoa.jpg",
   "South Goa Tour": "/img/tour/south-goa-tour/southgoa.webp",
   "Flyboarding": "/img/tour/flyboarding/flyboarding.webp",
-  "Dudhsagar Waterfalls": "/img/tour/dudhsagar-waterfall-trip/dudhsagar-waterfall.jpg",
+  "Dudhsagar Waterfalls": "/img/tour/dudhsagar-waterfall-trip/dudhsagar-waterfalls-trekking.jpg",
   "Island Trip Goa": "/img/tour/island-trip/trip-island-goa.jpeg",
   "Whatsappwal": "/img/whatsappwal.jpg",
   "adventure": "/img/adventure.jpg",
