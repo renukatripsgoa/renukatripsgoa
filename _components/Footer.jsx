@@ -104,12 +104,12 @@ export default function Footer() {
               <h3 className="font-semibold text-start lg:text-center">
                 Connect with us:
               </h3>
-              <p className="text-gray-300 text-start lg:text-center">
+              <p className="text-gray-300 text-start lg:self-center">
                 {socialLinks.map((link, index) => (
                 <Link
                   key={index}
                   href={link.href}
-                  className="hover:text-white hover:bg-themeColor p-2 rounded-full"
+                  className="hover:text-white hover:bg-themeColor"
                 >
                   {iconComponents[link.icon]}
                 </Link>
