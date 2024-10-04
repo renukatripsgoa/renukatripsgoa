@@ -18,15 +18,23 @@ const Home = () => {
     }
   };
 
-
-
-
   return (
     <div className="h-full w-full">
       <div className="flex flex-col gap-5">
         <Carousel scrollContact={handleCardSelect} />
         <AboutUsSection />
         <Card onSelectTitle={handleCardSelect} />
+              <div className="flex h-44 w-full shadow-md rounded-xl border object-cover">
+
+        <iframe
+          className="w-full h-full overflow-hidden object-cover"
+          src={`https://maps.app.goo.gl/6EYAzSAonVQ3yN1n8`}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+
+      </div>
         <Testimonials />
         <div ref={contactRef}>
           <Contact selectedService={selectedTitle} />
