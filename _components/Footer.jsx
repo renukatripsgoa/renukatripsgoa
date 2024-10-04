@@ -1,8 +1,14 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/Siteconfig";
+import { Instagram } from "lucide-react";
 
 export default function Footer() {
   const { tours, couplePackages, groupPackages, quickLinks } = siteConfig;
+
+    const iconComponents = {
+    Instagram: <Instagram className="w-6 h-6" />,
+  };
+  
   return (
     <>
       <footer className="bg-blue-900 text-white py-8">
@@ -92,6 +98,22 @@ export default function Footer() {
                 <Link href="tel:+917410150610" className="text-gray-300">
                   +91 74101 50610
                 </Link>
+              </p>
+            </div>
+                        <div className="flex flex-col gap-5">
+              <h3 className="font-semibold text-start lg:text-center">
+                Connect with us:
+              </h3>
+              <p className="text-gray-300 text-start lg:text-center">
+                {socialLinks.map((link, index) => (
+                <Link
+                  key={index}
+                  href={link.href}
+                  className="hover:text-white hover:bg-themeColor p-2 rounded-full"
+                >
+                  {iconComponents[link.icon]}
+                </Link>
+              ))}
               </p>
             </div>
           </div>
