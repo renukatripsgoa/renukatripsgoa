@@ -10,7 +10,7 @@ const Flyboarding = () => {
 
   const bgimage = {
     key: "1",
-    image: "/img/tour/flyboarding/flyboarding.webp"
+    image: "/img/tour/flyboarding/flyboardingg.jpeg"
   }
 
   const breadcrump = [
