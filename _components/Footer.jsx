@@ -70,7 +70,7 @@ export default function Footer() {
           </div>
 
           {/* Footer Bottom Section */}
-          <div className="mt-8 border-t border-white pt-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+          <div className="mt-8 border-t border-white pt-4 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
             <div className="flex flex-col gap-5">
               <h3 className="font-semibold text-start lg:text-center ">
                 Address
