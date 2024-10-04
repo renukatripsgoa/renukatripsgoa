@@ -77,10 +77,10 @@ export default function Footer() {
               <h3 className="font-semibold text-start lg:text-center">Email</h3>
               <p className="text-gray-300 text-start lg:text-center">
                 <Link
-                  href="mailto:renukaadventures@gmail.com"
+                  href="mailto:renukatripsgoa44@gmail.com"
                   className="text-gray-300"
                 >
-                  renukaadventures@gmail.com
+                  renukatripsgoa44@gmail.com
                 </Link>
               </p>
             </div>
