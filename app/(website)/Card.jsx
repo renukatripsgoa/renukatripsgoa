@@ -119,55 +119,55 @@ const Card = ({ onSelectTitle }) => {
 
                     let percentOff = 0;
 
-                    if(index === 0 && e.subcategory === "Scuba Combo") {
+                    if(index === 0) {
                       percentOff = 20
                     }
 
-                    if(index === 1 && e.subcategory === "Couple Scuba Water Sports") {
+                    if(index === 1) {
                       percentOff = 20
                     }
 
-                    if(index === 2 && e.subcategory === "Scuba Combo Paradise Island") {
+                    if(index === 2) {
                       percentOff = 18
                     }
 
-                    if(index === 3 && e.subcategory === "Scuba Combo Malwan") {
+                    if(index === 3) {
                       percentOff = 15
                     }
 
-                    if(index === 4 && e.subcategory === "Water Sports Combo") {
+                    if(index === 4) {
                       percentOff = 12
                     }
 
-                    if(index === 5 && e.subcategory === "Adventure Party Boat") {
+                    if(index === 5) {
                       percentOff = 10
                     }
 
-                    if(index === 6 && e.subcategory === "Dinner Cruise") {
+                    if(index === 6) {
                       percentOff = 10
                     }
 
-                    if(index === 7 && e.subcategory === "Bungee Jump") {
+                    if(index === 7) {
                       percentOff = 13
                     }
 
-                    if(index === 8 && e.subcategory === "North Goa Tour") {
+                    if(index === 8) {
                       percentOff = 13
                     }
 
-                    if(index === 9 && e.subcategory === "South Goa Tour") {
+                    if(index === 9) {
                       percentOff = 13
                     }
 
-                    if(index === 10 && e.subcategory === "Flyboarding") {
+                    if(index === 10) {
                       percentOff = 13
                     }
 
-                    if(index === 11 && e.subcategory === "Dudhsagar Waterfalls") {
+                    if(index === 11) {
                       percentOff = 13
                     }
 
-                    if(index === 12 && e.subcategory === "Island Trip Goa") {
+                    if(index === 12) {
                       percentOff = 15
                     }
 
@@ -183,15 +183,15 @@ const Card = ({ onSelectTitle }) => {
                       percentOff = 13.3
                     }
 
-                    if(index === 0 && e.subcategory === "Group Package - 1") {
+                    if(index === 0 && mainCategory === "Group Packages") {
                       percentOff = 20
                     }
 
-                    if(index === 1 && e.subcategory === "Group Package - 2") {
+                    if(index === 1 && mainCategory === "Group Packages") {
                       percentOff = 29
                     }
 
-                    if(index === 2 && e.subcategory === "Group Package - 3") {
+                    if(index === 2 && mainCategory === "Group Packages") {
                       percentOff = 22
                     }
 
