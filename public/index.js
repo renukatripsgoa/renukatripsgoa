@@ -66,7 +66,7 @@ const IMAGES = {
   "Bungee Jump": "/img/tour/bunjee-jump/bunjee-jump.webp",
   "North Goa Tour": "/img/tour/north-goa-tour/northgoa.jpg",
   "South Goa Tour": "/img/tour/south-goa-tour/southgoa.webp",
-  "Flyboarding": "/img/tour/flyboarding/flyboarding.webp",
+  "Flyboarding": "/img/tour/flyboarding/flyboardingg.jpeg",
   "Dudhsagar Waterfalls": "/img/tour/dudhsagar-waterfall-trip/dudhsagar-waterfalls-trekking.jpg",
   "Island Trip Goa": "/img/tour/island-trip/grand-island.jpg",
   "Whatsappwal": "/img/whatsappwal.jpg",
