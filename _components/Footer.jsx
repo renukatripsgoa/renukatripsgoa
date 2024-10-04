@@ -3,7 +3,7 @@ import { siteConfig } from "@/config/Siteconfig";
 import { Instagram } from "lucide-react";
 
 export default function Footer() {
-  const { tours, couplePackages, groupPackages, quickLinks } = siteConfig;
+  const { tours, couplePackages, groupPackages, quickLinks, socialLinks } = siteConfig;
 
     const iconComponents = {
     Instagram: <Instagram className="w-6 h-6" />,
