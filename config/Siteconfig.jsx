@@ -162,4 +162,8 @@ export const siteConfig={
       { name: 'Contact', link: '/contact' },
       { name: 'Book Now', link: '/contact' },
     ],
+
+  socialLinks = [
+  { href: "https://www.instagram.com/renukatripsgoa/", icon: "Instagram" },
+];
   }
