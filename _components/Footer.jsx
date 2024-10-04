@@ -70,7 +70,7 @@ export default function Footer() {
                 Address
               </h3>
               <p className="text-gray-300 text-start lg:text-center">
-                Tivai Vaddo, Calangute, Calangute, Goa, India, 403516
+                Vaddi galvai 3/19/A/1 near Andores resort and spa Tivai Vaddo Calangute, Goa 403516 India
               </p>
             </div>
             <div className="flex flex-col gap-5">
