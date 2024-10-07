@@ -188,7 +188,7 @@ const ScubaCombooParadise = () => {
 
   }, [])
 
-  const imgSection = "/img/tour/scuba-combo/sport-image.jpg"
+  const imgSection = "/img/tour/scuba-combo-paradise-island/paradise.jpg"
 
   const action = "tour"
 
