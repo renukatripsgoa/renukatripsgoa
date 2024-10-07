@@ -96,6 +96,13 @@ export default function Navbar() {
           <Link href="/contact" className="h-fit rounded-lg border-2 border-blue-500 px-4 py-2 text-blue-500 transition-all hover:bg-blue-500 hover:text-white font-medium" >
             Book now
           </Link>
+            <Link href="tel:+917410150610"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="h-fit rounded-lg border-2 border-blue-500 bg-blue-500 text-white px-4 py-2 transition-all hover:border-blue-500 hover:text-blue-500 hover:bg-white font-medium" 
+          >
+            Call now
+          </Link>
         </nav>
 
         <div className="p-2 rounded-full bg-blue-300 lg:hidden">
@@ -159,10 +166,17 @@ function MobileNav({ closeSideMenu }) {
             ))}
           </ul>
 
-          <section className="flex flex-col gap-8 mt-4 px-3">
+          <section className="flex flex-col gap-4 mt-4 px-3">
             <Link href="/contact" className="h-fit rounded-lg border-2 border-blue-500 px-4 py-2 text-blue-500 transition-all hover:bg-blue-500 hover:text-white font-medium" >
-                Book now
+              Book now
             </Link>
+            <Link href="tel:+917410150610"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="h-fit rounded-lg border-2 border-blue-500 bg-blue-500 text-white px-4 py-2 transition-all hover:border-blue-500 hover:text-blue-500 hover:bg-white font-medium" 
+          >
+            Call now
+          </Link>
           </section>
         </div>
       </div>
