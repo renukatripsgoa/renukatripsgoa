@@ -203,7 +203,7 @@ const ScubaComboMalwan = () => {
 
   }, [])
 
-  const imgSection = "/img/tour/scuba-combo/sport-image.jpg"
+  const imgSection = "/img/tour/scuba-combo-malwan/malvan.jpg"
 
   const action = "tour"
 
