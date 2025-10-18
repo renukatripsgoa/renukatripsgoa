@@ -9,6 +9,7 @@ export async function middleware(request) {
 
   if (request.nextUrl.pathname.startsWith('/admin/')) {
     // const authToken = cookies.get("next-auth.session-token")?.value;
+    //updated
     const authToken = cookies.get("__Secure-next-auth.session-token")?.value;
 
     // const authToken = cookies.get("_vercel_jwt")?.value;
