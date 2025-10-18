@@ -12,17 +12,22 @@
       "static/css/app/(website)/layout.css",
       "static/chunks/app/(website)/layout.js"
     ],
+    "/(website)/tours/scuba-combo/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(website)/tours/scuba-combo/page.css",
+      "static/chunks/app/(website)/tours/scuba-combo/page.js"
+    ],
     "/(website)/scubadivingpackages/scubadiving-package-1/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(website)/scubadivingpackages/scubadiving-package-1/page.css",
       "static/chunks/app/(website)/scubadivingpackages/scubadiving-package-1/page.js"
     ],
-    "/(website)/tours/dinner-cruise/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(website)/tours/dinner-cruise/page.css",
-      "static/chunks/app/(website)/tours/dinner-cruise/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

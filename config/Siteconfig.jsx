@@ -153,6 +153,7 @@ export const siteConfig = {
     { name: 'Group Package - 1', link: '/grouppackages/group-package-1' },
     { name: 'Group Package - 2', link: '/grouppackages/group-package-2' },
     { name: 'Group Package - 3', link: '/grouppackages/group-package-3' },
+    { name: 'Scuba Diving Package - 1', link: '/scubadivingpackages/scubadiving-package-1' },
   ],
 
   couplePackages: [
