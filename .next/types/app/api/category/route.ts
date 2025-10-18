@@ -1,4 +1,4 @@
-// File: /workspaces/renukaadventure/app/api/category/route.js
+// File: C:\Users\Admin\Desktop\_work\renukatripsgoa\app\api\category\route.js
 import * as entry from '../../../../../app/api/category/route.js'
 import type { NextRequest } from 'next/server.js'
 

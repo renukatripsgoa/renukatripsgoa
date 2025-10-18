@@ -98,7 +98,7 @@ const Card = ({ onSelectTitle }) => {
       </h2>
 
       <div className="space-y-8">
-        {["Tour", "Couple Packages", "Group Packages"].map((mainCategory) => (
+        {["Scuba Diving At Grand Island Packages", "Tour", "Couple Packages", "Group Packages"].map((mainCategory) => (
           <div key={mainCategory}>
             <h2 className="text-2xl font-bold mb-4 text-blue-500">
               {mainCategory}

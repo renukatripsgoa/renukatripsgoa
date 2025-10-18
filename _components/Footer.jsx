@@ -3,7 +3,7 @@ import { siteConfig } from "@/config/Siteconfig";
 import { Instagram } from "lucide-react";
 
 export default function Footer() {
-  const { tours, couplePackages, groupPackages, quickLinks, socialLinks } = siteConfig;
+  const { tours, couplePackages, groupPackages, scubadivingPackages, quickLinks, socialLinks } = siteConfig;
 
     const iconComponents = {
     Instagram: <Instagram className="w-6 h-6" />,
@@ -19,7 +19,7 @@ export default function Footer() {
               Book Your Trip
             </button> */}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
             {/* Tours Section */}
             <div>
               <h2 className="font-semibold text-lg mb-4">Tours</h2>
@@ -49,6 +49,18 @@ export default function Footer() {
               <h2 className="font-semibold text-lg mb-4">Group Packages</h2>
               <ul className="space-y-2 text-gray-300">
                 {groupPackages.map((packageItem, index) => (
+                  <li key={index}>
+                    <Link href={packageItem.link}>{packageItem.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Scuba Diving Packages Section */}
+            <div>
+              <h2 className="font-semibold text-lg mb-4">Scuba Diving Packages</h2>
+              <ul className="space-y-2 text-gray-300">
+                {scubadivingPackages.map((packageItem, index) => (
                   <li key={index}>
                     <Link href={packageItem.link}>{packageItem.name}</Link>
                   </li>

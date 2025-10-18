@@ -502,7 +502,7 @@ const TourCombo = ({ data, title, titleImg, SLIDES, OPTIONS, bookingSection, des
             <section className="pt-14 pb-14 bg-[#c0dfff] text-[#003776] text-center">
                 <div className="max-w-6xl mx-auto flex lg:flex-row flex-col">
 
-                    {action === "couple" || action === "group" 
+                    {action === "couple" || action === "group"  
                     ? <>
                     <div className='lg:text-center lg:w-[70%]' style={{ textAlign: "-webkit-center" }}>
                         <Image

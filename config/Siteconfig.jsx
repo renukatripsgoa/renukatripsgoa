@@ -102,6 +102,16 @@ export const siteConfig = {
         },
       ],
     },
+    {
+      label: "Scuba Diving At Grand Island",
+      link: "",
+      children: [
+        {
+          label: "Scuba Diving Package - 1",
+          link: "/scubadivingpackages/scubadiving-package-1",
+        },
+      ],
+    },
   ],
 
 
@@ -128,7 +138,7 @@ export const siteConfig = {
     { name: 'Couple Scuba Water Sports', link: '/tours/couple-scuba-combo' },
     { name: 'Scuba Combo Paradise Island', link: '/tours/scuba-combo-paradise' },
     { name: 'Scuba Combo Malwan', link: '/tours/scuba-combo-malwan' },
-    { name: 'Water Sports Combo', link: '/tours/water-sports' },
+    { name: 'Water sports 5 Ride’s', link: '/tours/water-sports' },
     { name: 'Adventure Party Boat', link: '/tours/adventure-party-boat' },
     { name: 'Dinner Cruise', link: '/tours/dinner-cruise' },
     { name: 'Bungee Jump', link: '/tours/bunjee-jump' },
@@ -155,6 +165,10 @@ export const siteConfig = {
     { name: 'Group Package - 1', link: '/grouppackages/group-package-1' },
     { name: 'Group Package - 2', link: '/grouppackages/group-package-2' },
     { name: 'Group Package - 3', link: '/grouppackages/group-package-3' },
+  ],
+
+    scubadivingPackages: [
+    { name: 'Scuba Diving Package - 1', link: '/scubadivingpackages/scubadiving-package-1' },
   ],
 
   quickLinks: [

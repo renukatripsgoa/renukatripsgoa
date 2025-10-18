@@ -10,7 +10,8 @@ const Dinnercruise = () => {
 
   const bgimage = {
     key: "1",
-    image: "/img/tour/dinner-cruise/dinnercruisee.jpg"
+    // image: "/img/tour/dinner-cruise/dinnercruisee.jpg"
+    image: "/img/tour/dinner-cruise/hq720.jpg"
   }
 
   const breadcrump = [
@@ -285,7 +286,7 @@ const Dinnercruise = () => {
 
             <p className='font-semibold mt-3 mb-3'>Activity Location: <span className='font-normal'> Mandovi River, Panaji, Goa</span></p>
             <p className='font-semibold mt-3 mb-3'>Pick-up and Drop-off Locations: <span className='font-normal'> Your hotel location must be centrally located in Baga, Calangute, Candolim, Panjim</span></p>
-            <p className='font-semibold mt-3 mb-3'>Pick-up Time: <span className='font-normal'> 09:00 PM</span ></p>
+            <p className='font-semibold mt-3 mb-3'>Pick-up Time: <span className='font-normal'> 7:00 pm to 7:30 pm</span ></p>
             <p className='font-semibold mt-3 mb-3'>Party Duration: <span className='font-normal'> 3.00 Hrs.</span></p>
             <p className='font-semibold mt-3 mb-3'>Return Time: <span className='font-normal'> 12:00 AM</span></p>
 
