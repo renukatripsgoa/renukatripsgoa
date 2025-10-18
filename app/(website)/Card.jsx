@@ -224,7 +224,8 @@ const Card = ({ onSelectTitle }) => {
                           <div className="flex-1 p-4">
                             <div className="flex justify-between items-center">
                               <h3 className="text-xl font-semibold">
-                                {e.subcategory === "Scuba Combo" ? "Grand Island Combo" : e.subcategory}
+                                {e.subcategory === "Scuba Combo" ? "Grand Island Combo" : e.subcategory === "Scuba Diving Package - 1" ? "Scuba Diving At Grand Island" : e.subcategory === "Water Sports Combo" ? "Water sports 5 Rides" : e.subcategory}
+                                
                               </h3>
                               <div className="flex flex-col text-right">
                                 <p className="text-gray-500 line-through">

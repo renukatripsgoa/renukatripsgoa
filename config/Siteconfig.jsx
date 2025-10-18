@@ -138,7 +138,7 @@ export const siteConfig = {
     { name: 'Couple Scuba Water Sports', link: '/tours/couple-scuba-combo' },
     { name: 'Scuba Combo Paradise Island', link: '/tours/scuba-combo-paradise' },
     { name: 'Scuba Combo Malwan', link: '/tours/scuba-combo-malwan' },
-    { name: 'Water sports 5 Ride’s', link: '/tours/water-sports' },
+    { name: 'Water Sports Combo', link: '/tours/water-sports' },
     { name: 'Adventure Party Boat', link: '/tours/adventure-party-boat' },
     { name: 'Dinner Cruise', link: '/tours/dinner-cruise' },
     { name: 'Bungee Jump', link: '/tours/bunjee-jump' },

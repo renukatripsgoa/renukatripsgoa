@@ -151,7 +151,7 @@ const TripIsland = () => {
 
   return (
     <>
-      <TourCombo data={data} title={"Island Trip Goa"} titleImg={`/img/tour/island-trip/grand-island.jpg`} SLIDES={SLIDES} OPTIONS={OPTIONS} bookingSection={bookingSection} description={description} destination={destination} imgSection={imgSection} action={action} off={off} inclusions={inclusions}/>
+      <TourCombo data={data} title={"Island Trip Goa"} titleImg={`/img/tour/island-trip/grand-island-Goa.jpg`} SLIDES={SLIDES} OPTIONS={OPTIONS} bookingSection={bookingSection} description={description} destination={destination} imgSection={imgSection} action={action} off={off} inclusions={inclusions}/>
     </>
   );
 };

@@ -279,7 +279,7 @@ const ScubaDivingPackageOne = () => {
 
   return (
     <>
-      <TourCombo data={data} title={"Scuba Diving At Grand Island Package - 1"} titleImg={`/img/scubadiving-packages-goa/scubadiving-package-1/Oceanographer.jpeg`} SLIDES={SLIDES} OPTIONS={OPTIONS} bookingSection={bookingSection} description={description} destination={destination} inclusions={inclusions} imgSection={imgSection} action={action} off={off} />
+      <TourCombo data={data} title={"Scuba Diving At Grand Island"} titleImg={`/img/scubadiving-packages-goa/scubadiving-package-1/Oceanographer.jpeg`} SLIDES={SLIDES} OPTIONS={OPTIONS} bookingSection={bookingSection} description={description} destination={destination} inclusions={inclusions} imgSection={imgSection} action={action} off={off} />
     </>
   );
 };
