@@ -106,7 +106,7 @@ const ScubaDivingPackageOne = () => {
                 <li>Fruits</li>
               </ul>
             </div>
-
+{/* Water Sports Package */}
             {/* Water Sports Package */}
             <div>
               <h2 className="text-md font-semibold flex items-center gap-2">
