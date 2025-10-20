@@ -1,4 +1,6 @@
 {
-  "/(website)/tours/island-trip/page": "app/(website)/tours/island-trip/page.js",
+  "/api/category/route": "app/api/category/route.js",
+  "/(website)/tours/scuba-combo/page": "app/(website)/tours/scuba-combo/page.js",
+  "/(website)/scubadivingpackages/scubadiving-package-1/page": "app/(website)/scubadivingpackages/scubadiving-package-1/page.js",
   "/(website)/page": "app/(website)/page.js"
 }

@@ -271,7 +271,7 @@ const ScubaDivingPackageOne = () => {
 
   const inclusions = "group"
 
-  const imgSection = "/img/scubadiving-packages-goa/scubadiving-package-1/scubadivingatgrandisland.png"
+  const imgSection = "/img/scubadiving-packages-goa/scubadiving-package-1/scubadivingatgrandisland.jpeg"
 
   const action = "group"
 

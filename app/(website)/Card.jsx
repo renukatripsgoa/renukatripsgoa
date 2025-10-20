@@ -96,6 +96,7 @@ const Card = ({ onSelectTitle }) => {
       <h2 className="text-2xl lg:text-3xl font-bold text-start mb-8 text-blue-600">
         Explore Sea Adventures in Goa
       </h2>
+{console.log("DAta:::::::::::::>", fetchallcategory)}
 
       <div className="space-y-8">
         {["Scuba Diving At Grand Island Packages", "Tour", "Couple Packages", "Group Packages"].map((mainCategory) => (
@@ -112,10 +113,40 @@ const Card = ({ onSelectTitle }) => {
                   <Loader />
                 </>
               ) : (
-                fetchallcategory
-                  ?.filter((e) => e.maincategory === mainCategory)
-                  .slice(0, 13) // Limit to the first 3 items of each main category
-                  .map((e, index) => {
+                // fetchallcategory
+                //   ?.filter((e) => e.maincategory === mainCategory)
+                //   .slice(0, 13) // Limit to the first 3 items of each main category
+                //   .map((e, index) => {
+
+                  fetchallcategory
+  ?.filter((e) => e.maincategory === mainCategory)
+  .slice(0, 13)
+  // reorder so items at indexes 5, 8, and 11 appear first (in that order)
+    // reorder so specific subcategories come first
+  .sort((a, b) => {
+    const priorityOrder = [
+      "Scuba Combo",
+      "Island Trip Goa",
+      "Water Sports Combo",
+      "Dinner Cruise",
+      "Dudhsagar Waterfalls",
+    ];
+
+    const aPriority = priorityOrder.indexOf(a.subcategory);
+    const bPriority = priorityOrder.indexOf(b.subcategory);
+
+    // Items in the priority list come first, in the same order
+    if (aPriority !== -1 && bPriority !== -1) {
+      return aPriority - bPriority;
+    } else if (aPriority !== -1) {
+      return -1;
+    } else if (bPriority !== -1) {
+      return 1;
+    }
+    return 0;
+  })
+  .map((e, index) => {
+
 
                     let percentOff = 0;
 
