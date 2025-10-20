@@ -3,6 +3,7 @@
   "middleware": {
     "/": {
       "files": [
+        "prerender-manifest.js",
         "server/edge-runtime-webpack.js",
         "server/middleware.js"
       ],
@@ -16,7 +17,11 @@
       ],
       "wasm": [],
       "assets": [],
-      "environments": {}
+      "environments": {
+        "previewModeId": "f3d23e87a94feb71cf6819e879cbf4bf",
+        "previewModeSigningKey": "1b19f715bd6862339a80d1e697757eb4f61a6089f329ab0cfc0b7ef28132fe93",
+        "previewModeEncryptionKey": "49651163287dcd6be70e148890ec54bed6647925dda22d31e4cdeb121bccf8ec"
+      }
     }
   },
   "functions": {},
