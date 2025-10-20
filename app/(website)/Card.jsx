@@ -91,12 +91,13 @@ const Card = ({ onSelectTitle }) => {
     getData();
   }, []);
 
+  //update
+
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-2xl lg:text-3xl font-bold text-start mb-8 text-blue-600">
         Explore Sea Adventures in Goa
       </h2>
-{console.log("DAta:::::::::::::>", fetchallcategory)}
 
       <div className="space-y-8">
         {["Scuba Diving At Grand Island Packages", "Tour", "Couple Packages", "Group Packages"].map((mainCategory) => (
